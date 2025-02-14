@@ -1,0 +1,102 @@
+---
+title: "Título del Trabajo"
+author: "Pepe Pérez"
+date: "23 de octubre de 2023"
+institute: "Universidad de Burgos"
+documentclass: article
+geometry: inner=3cm, outer=2cm, top=2.5cm, bottom=2.5cm, bindingoffset=1cm
+output: pdf_document
+bibliography: Bibliografia/referencias_memoria.bib
+lang: es-ES
+---
+
+\begin{titlepage}
+\begin{center}
+    \Large{Grado en Ingeniería de la Salud}\\[1cm]
+    \Huge{TFG del Grado en Ingeniería de la Salud}\\[2cm]
+    \textbf{Título del trabajo}\\[1.5cm]
+    \large{Presentado por Pepe Pérez}\\
+    \large{en Universidad de Burgos}\\[1.5cm]
+    \large{23 de octubre de 2023}\\[2cm]
+    \large{Tutores: Tutor 1 – Tutor 2}
+\end{center}
+\end{titlepage}
+
+\newpage
+
+\section*{Resumen}
+Breve presentación del tema abordado en el proyecto.
+
+\textbf{Descriptores:} palabras clave separadas por comas.
+
+\section*{Abstract}
+A brief presentation of the topic addressed in the project.
+
+\textbf{Keywords:} keywords separated by commas.
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+\newpage
+
+# Introducción
+Descripción del contenido del trabajo y de la estructura del documento.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Imagenes/Cabecera_Salud.png}
+    \caption{Descripción de la imagen 1.}
+\end{figure}
+
+# Objetivos
+- Objetivos del proyecto.
+- Objetivos técnicos.
+- Objetivos de aprendizaje.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Imagenes/Cabecera_Salud.png}
+    \caption{Descripción de la imagen 2.}
+\end{figure}
+
+# Conceptos teóricos
+Explicación de los conceptos básicos necesarios.
+
+## Estado del arte y trabajos relacionados
+Revisión bibliográfica y comparación con trabajos previos.
+
+# Metodología
+## Descripción de los datos
+Breve descripción de los datos utilizados.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Imagenes/Cabecera_Salud.png}
+    \caption{Descripción de la imagen 3.}
+\end{figure}
+
+## Técnicas y herramientas
+Resumen de metodologías, herramientas y comparaciones.
+
+# Resultados
+## Resumen de resultados
+Breve resumen de los resultados obtenidos.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Imagenes/Cabecera_Salud.png}
+    \caption{Descripción de la imagen 4.}
+\end{figure}
+
+## Discusión
+Análisis de los resultados y su relevancia.
+
+# Conclusiones
+## Aspectos relevantes
+Resumen de la experiencia y justificación de decisiones.
+
+# Líneas de trabajo futuras
+Posibles mejoras y futuros desarrollos del proyecto.
+
+# Bibliografía
