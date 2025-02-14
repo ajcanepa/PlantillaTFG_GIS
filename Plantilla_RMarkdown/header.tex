@@ -1,0 +1,33 @@
+% Idioma
+\usepackage[spanish,es-tabla]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{placeins}
+
+% Tablas
+\usepackage{booktabs}
+\usepackage[table]{xcolor}
+\usepackage{xtab}
+\usepackage{multirow}
+
+% Hipervínculos
+\usepackage[colorlinks]{hyperref}
+\hypersetup{ allcolors = {red} }
+
+% Matemáticas
+\usepackage{amsmath}
+
+% Imágenes
+\usepackage{graphicx}
+\graphicspath{ {./img/} }
+
+% Definición de márgenes
+\let\tmp\oddsidemargin
+\let\oddsidemargin\evensidemargin
+\let\evensidemargin\tmp
+\reversemarginpar
+
+% Configuración de capítulos
+\chapterstyle{bianchi}
