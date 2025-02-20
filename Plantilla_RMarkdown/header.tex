@@ -1,33 +1,25 @@
-% Idioma
-\usepackage[spanish,es-tabla]{babel}
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{lmodern}
-\usepackage{microtype}
-\usepackage{placeins}
+\usepackage{pdflscape}
+\newcommand{\blandscape}{\begin{landscape}}
+\newcommand{\elandscape}{\end{landscape}}
+\usepackage{geometry}
+\geometry{
+  a4paper,
+  left=2.5cm,
+  right=2.5cm,
+  top=2.5cm,
+  bottom=2.5cm,
+  bindingoffset=1cm,
+  twoside
+}
+\usepackage{parskip}
+\usepackage{ragged2e}
+\justifying
 
-% Tablas
-\usepackage{booktabs}
-\usepackage[table]{xcolor}
-\usepackage{xtab}
-\usepackage{multirow}
+\usepackage{tcolorbox}
 
-% Hipervínculos
-\usepackage[colorlinks]{hyperref}
-\hypersetup{ allcolors = {red} }
-
-% Matemáticas
-\usepackage{amsmath}
-
-% Imágenes
 \usepackage{graphicx}
-\graphicspath{ {./img/} }
 
-% Definición de márgenes
-\let\tmp\oddsidemargin
-\let\oddsidemargin\evensidemargin
-\let\evensidemargin\tmp
-\reversemarginpar
-
-% Configuración de capítulos
-\chapterstyle{bianchi}
+% Si quiero que haya solo una sección justificada, deberé realizar:
+%\begin{justify}
+%Texto que estará justificado.
+%\end{justify}

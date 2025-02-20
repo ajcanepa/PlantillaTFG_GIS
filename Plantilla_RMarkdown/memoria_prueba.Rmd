@@ -1,26 +1,64 @@
 ---
-title: "Título del Trabajo"
-author: "Pepe Pérez"
-date: "23 de octubre de 2023"
-institute: "Universidad de Burgos"
-documentclass: article
-geometry: inner=3cm, outer=2cm, top=2.5cm, bottom=2.5cm, bindingoffset=1cm
-output: pdf_document
+title: |
+  ```{=latex}
+  \vspace{1cm}
+  \huge \textbf{TFG del Grado en Ingeniería de la Salud} \\[0.8cm]  % Agrega un salto de línea
+  \vspace{0.5cm}  % Ajusta el espacio entre los textos
+  \Huge \textbf{Título del Trabajo} 
+  ```
+author: ""
+date: ""
+output: 
+  pdf_document:
+    includes:
+      in_header: header.tex
+    toc: false
+    toc_depth: 8
+    number_sections: true
+toc_title: "Índice General"
+editor_options:
+  chunk_output_type: console
+extra_dependencies: [hyperref]
+linkcolor: blue
 bibliography: Bibliografia/referencias_memoria.bib
 lang: es-ES
+header-includes:
+- \usepackage{titling}
+- \pretitle{\begin{center}\LARGE\includegraphics[width=12cm]{Imagenes/Cabecera_Escudo_Salud.png}\\[\bigskipamount]}
+- \posttitle{\end{center}}
+- \usepackage{pdfpages}
 ---
 
-\begin{titlepage}
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+\vspace{1cm}
 \begin{center}
-    \Large{Grado en Ingeniería de la Salud}\\[1cm]
-    \Huge{TFG del Grado en Ingeniería de la Salud}\\[2cm]
-    \textbf{Título del trabajo}\\[1.5cm]
-    \large{Presentado por Pepe Pérez}\\
-    \large{en Universidad de Burgos}\\[1.5cm]
-    \large{23 de octubre de 2023}\\[2cm]
-    \large{Tutores: Tutor 1 – Tutor 2}
+ \vspace{1cm}
+\Large \text{Presentado por Nombre Participante} \par 
+\text{en Universidad de Burgos}
 \end{center}
-\end{titlepage}
+\vspace{0.5cm}
+\par
+\begin{center}
+\Large \text{Fecha de presentación} \par
+\vspace{0.5cm}
+\Large \text{Tutores: Tutor/a 1 -- Tutor/a 2}
+\par
+\end{center}
+
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+
 
 \newpage
 
